@@ -1,0 +1,25 @@
+.theme--light.v-sheet{
+  background-color: inherit;
+}
+a.nuxt-link-active {
+  font-weight: bold;
+}
+/* exact link will show the primary color for only the exact matching link */
+a.nuxt-link-exact-active {
+  color: #00c58e;
+}
+.v-toolbar__content{
+  background-color: #EEEEEE;
+}
+.v-application--wrap {
+  background-color: #E0E0E0;
+}
+a{
+  text-decoration: none;
+}
+.header_logo:hover{
+  cursor: pointer;
+  .nuxt-link-active{
+   color: red !important;
+  }
+}

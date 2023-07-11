@@ -1,12 +1,14 @@
 <template>
   <div>
+    <h1>About</h1>
   </div>
 </template>
 
 <script>
 export default {
-  async created() {
-    await this.$router.push('/home')
+  name: "AboutPage",
+  data() {
+    return {}
   }
 }
 </script>
