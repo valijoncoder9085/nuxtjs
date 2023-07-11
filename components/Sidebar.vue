@@ -22,8 +22,8 @@
       </v-list>
     </v-app-bar>
     <v-main>
-      <v-container>
-        <v-card class="my-3 pa-3 elevation-0 rounded-lg" min-height="1000px" color="#ECEFF1">
+      <v-container fluid>
+        <v-card class="my-2 pa-3 elevation-0 rounded-lg" min-height="1000px" color="#ECEFF1">
           <v-card-title>
             <Nuxt/>
           </v-card-title>

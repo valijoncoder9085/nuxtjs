@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-row>
-      <v-col cols="12" md="3" v-for="item in items" :key="item.id">
+      <v-col cols="12" md="4" lg="3" sm="6" v-for="item in items" :key="item.id">
         <v-hover
           v-slot="{hover}"
           open-delay="200"
